@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  position: relative;
+  border: none;
+  outline: none;
+}
+
+.container-setas {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button > img {
+  width: 40px;
+}
+
+.opacidade {
+  opacity: 50%;
+}
+
+.imagens-carrossel {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-position: center center;
+  background-size: cover;
+  transition: .3s ease-in-out;
+  position: relative;
+}
+
+.imagem-1 {
+  background-color: #510697;
+}
+
+.imagem-2 {
+  background-color: #970632;
+}
+
+.imagem-3 {
+  background-color: #069297;
+}
+
+.imagem-4 {
+  background-color: #979506;
+}
+
+.conteudo {
+  display: none;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #fff;
+  max-width: 300px;
+  box-shadow: 0px 4px 0px 4px #00000031;
+}
+
+.conteudo > h2 {
+  font-size: 3rem;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.conteudo > h2::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.conteudo > p {
+  text-align: justify;
+  font-size: 1.4rem;
+  margin-bottom: 50px;
+}
+
+.mostrar {
+  display: block;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-saiba-mais {
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 4px 20px;
+  transition: background .3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+}
+
+.imagem-1 .btn-saiba-mais{
+  background-color: #510697;  
+  box-shadow: 0px 2px 0px 2px #3b036e;
+}
+
+.imagem-2 .btn-saiba-mais{
+  background-color: #970632;
+  box-shadow: 0px 2px 0px 2px #790427;
+}
+
+.imagem-3 .btn-saiba-mais{
+  background-color: #069297;
+  box-shadow: 0px 2px 0px 2px #035f63;
+}
+
+.imagem-4 .btn-saiba-mais{
+  background-color: #979506;
+  box-shadow: 0px 2px 0px 2px #6d6b04;
+}
+
+.btn-saiba-mais:hover {
+  box-shadow: none;
+  transform: translateY(2px);
+}
