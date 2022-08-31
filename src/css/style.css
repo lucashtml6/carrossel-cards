@@ -21,13 +21,6 @@ button {
   outline: none;
 }
 
-.container-setas {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 button > img {
   width: 40px;
 }
@@ -41,8 +34,6 @@ button > img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-position: center center;
-  background-size: cover;
   transition: .3s ease-in-out;
   position: relative;
 }
